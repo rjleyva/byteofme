@@ -1,5 +1,15 @@
+import Hero from './components/Hero/Hero';
+
 const App = () => {
-  return <>Hero</>;
+  return (
+    <>
+      <Hero
+        greeting="Hello there! "
+        wavingEmoji=" 👋🏻"
+        bio=" I'm RJ, a consultant by day, developer at heart. Dive in for Neovim, keyboards, and crafts."
+      />
+    </>
+  );
 };
 
 export default App;
