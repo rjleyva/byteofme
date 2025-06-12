@@ -1,0 +1,18 @@
+/* Sticky header that stays at the top */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
+
+/* Centered navigation bar with spacing */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1rem;
+  height: 4rem;
+}
