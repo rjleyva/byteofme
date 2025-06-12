@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import styles from './header.module.css';
 
 interface HeaderProps {
   logo: string;
@@ -6,8 +7,8 @@ interface HeaderProps {
 
 const Header = ({ logo }: HeaderProps) => {
   return (
-    <header>
-      <nav>
+    <header className={styles.header}>
+      <nav className={styles.nav}>
         <Link to="/">{logo}</Link>
       </nav>
     </header>
