@@ -7,10 +7,11 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "bunx --bun vite",
+    "build": "tsc -b && bunx --bun vite build",
+    "preview": "bunx --bun vite preview",
+    "lint": "bunx --bun eslint .",
+    "format": "bunx --bun pretter --write ."
   },
   "dependencies": {
     "react": "^19.1.0",
