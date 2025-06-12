@@ -11,7 +11,7 @@
     "build": "tsc -b && bunx --bun vite build",
     "preview": "bunx --bun vite preview",
     "lint": "bunx --bun eslint .",
-    "format": "bunx --bun pretter --write ."
+    "format": "bunx --bun prettier --write ."
   },
   "dependencies": {
     "react": "^19.1.0",
