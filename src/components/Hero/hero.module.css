@@ -1,0 +1,39 @@
+:root {
+  --text-sm: 1.8rem;
+  --text-md: 1.9rem;
+  --text-lg: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 42rem; /* ~672px */
+  padding: 1rem;
+}
+
+/* Greeting section */
+.greeting {
+  font-size: var(--text-sm);
+  /* font-weight: bold; */
+}
+
+/* Bio section */
+.bio {
+  font-size: var(--text-sm);
+  /* color: gray; */
+}
+
+/* Medium screens (≥600px) */
+@media (min-width: 37.5rem) {
+  .greeting,
+  .bio {
+    font-size: var(--text-md);
+  }
+}
+
+/* Large screens (≥832px) */
+@media (min-width: 52rem) {
+  .greeting,
+  .bio {
+    font-size: var(--text-lg);
+  }
+}
